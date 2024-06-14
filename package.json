@@ -1,0 +1,20 @@
+{
+  "name": "kata-tondeuse-bdd",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "test": "cucumber-js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
